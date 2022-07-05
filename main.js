@@ -24,6 +24,8 @@ paper.addEventListener("click", ()=>afterClick("Paper"));
 scissors.addEventListener("click", ()=>afterClick("Scissors"));
 
 reStart.addEventListener("click", ()=>RestartGame());
+
+overlay.style.display="none";
    
 var count = 0;
 var playerWin = 0;
