@@ -30,7 +30,7 @@ var playerWin = 0;
 var computerWin = 0;
 const final = document.querySelector("#final");
 
-function afterClick(playerSelection){s
+function afterClick(playerSelection){
     if(isGameOver()){
        final.textContent=whoWins();
        endGame();
